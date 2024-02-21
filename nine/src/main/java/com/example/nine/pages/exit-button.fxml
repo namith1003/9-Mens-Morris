@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<?import javafx.scene.text.Font?>
+
+<Button xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" layoutX="72.0" layoutY="397.0" mnemonicParsing="false" onAction="#perform" prefHeight="57.0" prefWidth="339.0" style="-fx-background-color: #aac6de;" text="EXIT" fx:controller="com.example.nine.controller.QuitGameAction">
+        <font>
+            <Font name="System Bold" size="17.0" />
+        </font>
+</Button>

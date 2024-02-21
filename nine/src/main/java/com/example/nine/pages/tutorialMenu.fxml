@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane id="application panel" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="544.0" prefWidth="919.0" style="-fx-background-color: #303030;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.nine.tutorials.TutorialLauncher">
+
+   <Label layoutX="60.0" layoutY="20.0" prefHeight="91.0" prefWidth="380.0" text="Select Tutorial" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+      <font>
+         <Font name="System Bold" size="45.0" />
+      </font>
+   </Label>
+
+   <Button layoutX="60.0" layoutY="124.0" mnemonicParsing="false" onAction="#placeTutorial" prefHeight="57.0" prefWidth="191.0" style="-fx-background-color: #aac6de;" text="#1 Placing Pieces" xmlns="http://javafx.com/javafx">
+      <font>
+         <Font name="System Bold" size="17.0" />
+      </font>
+   </Button>
+
+   <Button layoutX="60.0" layoutY="427.0" mnemonicParsing="false" onAction="#noMovesLeftTutorial" prefHeight="57.0" prefWidth="191.0" style="-fx-background-color: #aac6de;" text="#5 No Moves Left" xmlns="http://javafx.com/javafx">
+      <font>
+         <Font name="System Bold" size="17.0" />
+      </font>
+
+   </Button>
+
+   <Button layoutX="60.0" layoutY="203.0" mnemonicParsing="false" onAction="#millTutorial" prefHeight="57.0" prefWidth="191.0" style="-fx-background-color: #aac6de;" text="#2 Mills" xmlns="http://javafx.com/javafx">
+      <font>
+         <Font name="System Bold" size="17.0" />
+      </font>
+
+   </Button>
+
+   <Button layoutX="60.0" layoutY="277.0" mnemonicParsing="false" onAction="#jumpTutorial" prefHeight="57.0" prefWidth="191.0" style="-fx-background-color: #aac6de;" text="#3 Jumping" xmlns="http://javafx.com/javafx">
+      <font>
+         <Font name="System Bold" size="17.0" />
+      </font>
+
+   </Button>
+
+   <Button layoutX="773.0" layoutY="37.0" mnemonicParsing="false" onAction="#back" prefHeight="57.0" prefWidth="104.0" style="-fx-background-color: #aac6de;" text="Back">
+      <font>
+         <Font name="System Bold" size="17.0" />
+      </font>
+   </Button>
+
+   <Button layoutX="60.0" layoutY="351.0" mnemonicParsing="false" onAction="#twoPiecesLeftTutorial" prefHeight="57.0" prefWidth="191.0" style="-fx-background-color: #aac6de;" text="#4 Two Pieces Left" xmlns="http://javafx.com/javafx">
+      <font>
+         <Font name="System Bold" size="17.0" />
+      </font>
+   </Button>
+
+   <ImageView fitHeight="361.0" fitWidth="406.0" layoutX="460.0" layoutY="125.0" pickOnBounds="true" preserveRatio="true">
+      <Image url="@../images/board-example.png" />
+   </ImageView>
+
+</Pane>

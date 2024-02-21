@@ -1,0 +1,29 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="nine:jar">
+    <output-path>$PROJECT_DIR$</output-path>
+    <root id="archive" name="nine.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="nine" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/javafx-sdk-20.0.1/lib/javafx-swt.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/javafx-sdk-20.0.1/lib/javafx.web.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/javafx-sdk-20.0.1/lib/javafx.base.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/javafx-sdk-20.0.1/lib/javafx.fxml.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/javafx-sdk-20.0.1/lib/javafx.media.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/javafx-sdk-20.0.1/lib/javafx.swing.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/javafx-sdk-20.0.1/lib/javafx.controls.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/javafx-sdk-20.0.1/lib/javafx.graphics.jar" path-in-jar="/" />
+      <element id="library" level="project" name="lib" />
+      <element id="file-copy" path="$USER_HOME$/Downloads/javafx-sdk-20.0.1/lib/javafx-swt.jar" />
+      <element id="file-copy" path="$USER_HOME$/Downloads/javafx-sdk-20.0.1/lib/javafx.base.jar" />
+      <element id="file-copy" path="$USER_HOME$/Downloads/javafx-sdk-20.0.1/lib/javafx.controls.jar" />
+      <element id="file-copy" path="$USER_HOME$/Downloads/javafx-sdk-20.0.1/lib/javafx.fxml.jar" />
+      <element id="file-copy" path="$USER_HOME$/Downloads/javafx-sdk-20.0.1/lib/javafx.graphics.jar" />
+      <element id="file-copy" path="$USER_HOME$/Downloads/javafx-sdk-20.0.1/lib/javafx.media.jar" />
+      <element id="file-copy" path="$USER_HOME$/Downloads/javafx-sdk-20.0.1/lib/javafx.properties" />
+      <element id="file-copy" path="$USER_HOME$/Downloads/javafx-sdk-20.0.1/lib/javafx.swing.jar" />
+      <element id="file-copy" path="$USER_HOME$/Downloads/javafx-sdk-20.0.1/lib/javafx.web.jar" />
+    </root>
+  </artifact>
+</component>

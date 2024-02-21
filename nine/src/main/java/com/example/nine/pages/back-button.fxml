@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.Font?>
+
+<Button layoutX="490.0" layoutY="592.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="88.0" style="-fx-background-color: #5e7a90;" text="BACK" xmlns="http://javafx.com/javafx"
+        xmlns:fx="http://javafx.com/fxml"
+        fx:controller="com.example.nine.game.NormalGame" onAction="#perform">
+    <font>
+        <Font size="11.0" />
+    </font>
+</Button>
+
