@@ -1,6 +1,6 @@
 # 9-Man-Morris-Board-Game
 
-The board game for 9 Man Morris using JavaFX and Java.
+The 9-Man-Morris Board Game is an interactive, strategy-based board game implemented using Java and JavaFX. This project offers both single-player and multiplayer modes, allowing users to enjoy the traditional game in a modern digital format. The game features a user-friendly interface, robust game logic, and visual indicators for valid moves and game status. Players can also save and load game states, making it convenient to resume play at any time. The project aims to deliver an engaging and visually appealing gaming experience with potential future enhancements such as advanced UI/UX improvements and online multiplayer functionality.
 
 ## Features
 
@@ -40,14 +40,11 @@ $ java --module-path javafx-sdk-20.0.1/lib --add-modules javafx.controls,javafx.
 
 ### How to Generate the Executable File
 
-* Build the Project:
-** In IntelliJ IDEA, go to the "Build" menu and select "Build Project" to compile your Java code and generate the necessary class files.
+* Build the Project: In IntelliJ IDEA, go to the "Build" menu and select "Build Project" to compile your Java code and generate the necessary class files.
 
-* Create an Artifact Configuration:
-** In IntelliJ IDEA, go to "File" > "Project Structure" > "Artifacts" > "+" > "JAR".
+* Create an Artifact Configuration: In IntelliJ IDEA, go to "File" > "Project Structure" > "Artifacts" > "+" > "JAR".
 
-* Configure the Artifact:
-** Select the main class containing the main method of your JavaFX application as the entry point.
+* Configure the Artifact: Select the main class containing the main method of your JavaFX application as the entry point.
 
 ## Roadmap
 
@@ -65,8 +62,14 @@ $ java --module-path javafx-sdk-20.0.1/lib --add-modules javafx.controls,javafx.
 
 ## Documentation
 
+Comprehensive documentation can be found [here](https://github.com/namith1003/9-Mens-Morris/wiki).
+
 ## Release Notes
 
-You can find the release note for the latest release [here](https://github.com/namith1003/react-modalicious/releases/latest)
+You can find the release note for the latest release [here](https://github.com/namith1003/9-Mens-Morris/releases/latest).
 
-You can browse them all [here](https://github.com/namith1003/react-modalicious/releases)
+You can browse them all [here](https://github.com/namith1003/9-Mens-Morris/releases).
+
+## License
+
+Licensed under MIT
